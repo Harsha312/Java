@@ -1,16 +1,29 @@
 package com.pratice;
 
 public class Prime {
-
-	public Prime() {
-		// TODO Auto-generated constructor stub
-	}
-	public static void main(String[] args)
+	
+	int n=2;
+	
+	public void printPrime()
 	{
-		System.out.println("Hello ");
-	}
+		int i;
+		
+		for(i=1;i<=n;i++) {
+			
+			if(n%i==0) {
+				System.out.println(n + "Is Prime");
+			}
+			else
+				System.out.println(n + "Is not Prime");
+			}
+		}
+	
+public static void main(String args[]) {
+	
+	Prime a = new Prime();
+	a.printPrime();
 	
 	
-
+}
 }
 
