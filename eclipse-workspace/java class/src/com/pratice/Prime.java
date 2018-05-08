@@ -8,7 +8,7 @@ public class Prime {
 	{
 		int i;
 		
-		for(i=1;i<=n;i++) {
+		for(i=1;i<n;i++) {
 			
 			if(n%i==0) {
 				System.out.println(n + "Is Prime");
